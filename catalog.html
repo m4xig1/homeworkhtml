@@ -3,32 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Каталог Товаров</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a href="main.html">
-        <img src="rtxcock.jpg" alt="rtxcock" width="200" height="150">
-        <h1>NOT NOW</h1>
-    </a>   
-    <hr>
-    <h1>Каталог</h1>
-    <hr>
-    <a href="RTX3060Ti.html">
-        <img src="RTX3060Ti_main.jpg" alt="RTX3060Ti" width="200" height="150">
-        <h3>ВИДЕОКАРТА RTX3060 Ti</h3>
-        <p>Цена: €1,048</p>
-    </a>
-    <hr>
-    <a href="PALIT1050Ti.html">
-        <img src="PALIT1050TI_main.jpg" alt="GTX1050Ti" width="200" height="150">
-        <h3>ВИДЕОКАРТА PALIT GTX 1050ti</h3>
-        <p>Цена: €843</p>
-    </a>
-    <hr>
-    <a href="PORRIDGERTX.html">
-        <img src="porridge.jpg" alt="make PORRIDGE great" width="200" height="150">
-        <h3>Овсяный порридж с малиной</h3>
-        <p>Цена: 500р</p>       
-    </a>
-    <hr>
+    <div class="body">
+        <header><div class="front-label"><a href="index.html"><b>NOT NOW</b></a></div>
+            <ul>
+				<li class="header-menu"><a href="catalog.html" text-deco><p>MENU</p></a></li>
+				<li class="header-menu"><a href="#"><p>INFO</p></a></li>
+				<li class="header-menu"><a href="about.html"><p>ABOUT</p></a></li>
+			</ul>
+            <h1 style="text-align: center; margin: 100px;">КАТАЛОГ</h1>   
+        </header>
+        <ul>
+            <li class="product-wrapper">
+                <a href="RTX3060Ti.html" class="product">
+                    <div class="product-photo">
+                        <img src="RTX3060Ti_main.jpg" alt="RTX3060Ti">
+                    </div>
+                    <h3>ВИДЕОКАРТА RTX3060 Ti</h3>
+                    <p>Цена: €1,048</p>
+                    <form action=""><input type="submit" value="В корзину"></form>
+                </a>  
+            </li>   
+            <li class="product-wrapper">
+                <a href="PALIT1050Ti.html" class="product">
+                    <div class="product-photo">
+                        <img src="PALIT1050TI_main.jpg" alt="GTX1050Ti">
+                    </div>
+                    <h3>ВИДЕОКАРТА PALIT GTX 1050ti</h3>
+                    <p>Цена: €843</p>
+                    <form action=""><input type="submit" value="В корзину" ></form>
+                </a>
+            </li>
+            <li class="product-wrapper">
+                <a href="PORRIDGERTX.html" class="product">
+                    <div class="product-photo">
+                        <img src="porridge.jpg" alt="make PORRIDGE great">
+                    </div>
+                    <h3>Овсяный порридж с малиной</h3>
+                    <p>Цена: 500р</p>  
+                    <form action=""><input type="submit" value="В корзину"></form>     
+                </a>
+            </li>
+        </ul>  
+    <footer><p>Made by: Max <br> Using: HTML, CSS, no backend yet <br>© all rights reserved</p></footer>
+</div>
 </body>
 </html>
