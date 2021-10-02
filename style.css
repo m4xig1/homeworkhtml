@@ -1,0 +1,105 @@
+body {
+    font-size: 32px;
+    background-image:url("dust.gif");
+    font-family: 'Jura', sans-serif;
+    color: #dcdcdc;
+}
+a {
+    text-decoration:none;
+  }
+a:visited{
+    color: #dcdcdc;
+}
+ul {
+    justify-content: center;
+    display: flex;
+}
+
+.front-label { 
+    font-family: 'Syncopate', sans-serif;
+    font-size: 70px;    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.header-menu {
+    font-size: 40px;
+    font-family: 'Syncopate', sans-serif;
+    display:inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.front-img {
+    text-align: center;
+}
+.product {
+	display: block;
+	border: 1px solid #dcdcdc;
+	position: relative;
+	background: #fff;
+	margin: 0 30px 30px 0;
+	text-decoration: none;
+	z-index: 0;
+	height: auto;
+    font-size: 25px;
+    
+    border-radius: 5px;
+}
+.product p {
+	position: relative;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 5.6em;
+	overflow: hidden;
+    color: #000;
+}
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+}
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+.product-wrapper {
+    display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;  
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+footer {
+    width: 99%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #000;
+}
