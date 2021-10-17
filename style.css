@@ -49,6 +49,7 @@ ul {
     border-radius: 5px;
 }
 .product p {
+	text-decoration: none;
 	position: relative;
 	margin: 0;
 	font-size: 1em;
